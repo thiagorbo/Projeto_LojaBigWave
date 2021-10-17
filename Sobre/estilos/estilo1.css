@@ -1,0 +1,194 @@
+
+		body {
+			padding:0px;
+			margin:0px;
+			background-color: cyan;
+		}
+		#menu{
+			width: 85%;
+			background-color: #fff;
+			height:15px;
+			margin: auto;
+		}
+		#menu ul {
+			margin: 0px;
+			padding: 0px;
+			font-family: tahoma;
+			font-size: 8pt;
+			color: #ccc;
+			list-style: none;
+			display:inline;
+		}
+
+		#menu ul li{
+			position:relative;
+			float: left;
+			width: 88px;
+			
+			text-align:center;
+			padding-top: 1px;
+			cursor: pointer;
+		}
+		
+		#menu ul li a{
+			font-family: tahoma;
+			font-size: 8pt;
+			color: #000;
+			text-decoration: none;
+		}
+		#menu ul li:hover{
+			background-color:#D4CFD4;
+			border-bottom: 3px solid darkred;
+		}
+		#menu ul li ul{
+		position: absolute;
+		margin-top:5px;
+		font-family: tahoma;
+		font-size: 8pt;
+		color: #000;
+		display: none;
+		}
+
+		#menu ul li ul li{
+			padding-left: 5px;
+			text-align: left;
+			width: 85px;
+			border: 1px solid #fff;
+			
+		}
+		#menu ul li:hover ul{
+		background-color:#D4CFD4;
+		display: block;
+		}		
+
+		#pos_menu1{
+			position: relative;
+			margin: auto;
+			padding: auto;
+			width: 100%;
+			height:50px;
+			top: 0px;
+			z-index:1;
+	
+		}
+		#pos_menu2{
+		
+			
+			position: relative;
+			margin: auto;
+			padding: auto;
+			top: 230px;
+
+		}
+
+		
+		#rodape{
+        position:absolute;
+        bottom:0px;
+        left:0px;
+        width:100%;
+        height:40px;
+        background-color:#cccccc;
+        text-align:center;
+}
+#rodape ul {
+          margin:0px;
+          padding:0px;
+          font-family:"Arial rounded MT bold","verdana","ganeva","sans-serif";
+          font-size:10pt;
+          list-style:none;
+          display:inline;
+}
+#rodape ul li {
+           list-style-type:none;
+}
+#rodape ul li{
+           list-style-type:none;
+           display:inline;
+           border-right: 1px solid #FFFFFF;
+           padding-left: 15px;
+           padding-right: 15px;
+}
+#rodape ul li a{
+            font-family:"Arial ronded MT bold";
+            "verdana"; "geneva"; "sans-serif";
+            font-size: 10pt;
+            color: #FFFFFF;
+            text-decoration: none;
+}
+#rodape ul li:hover{
+                 color:#FF1493;
+}
+
+		 
+.fundo_table{
+	position: absolute;
+	top: 90px;
+	box-shadow: 5px 5px 2px #000;
+	background-image: url("../estilos/fundo2.jpg");
+	width:600px;
+	border-radius: 20px;
+	padding: 20px;
+}	
+	 
+td
+{        
+         vertical-align: middle;
+		 padding: 5px;
+		 }
+		 
+td.label{
+         font-family: Arial, Helvetica, Tahoma, Verdana, sans-serif;
+		 font-size: 12pt;
+		 font-weight: bold;
+		 color: #FFF;
+		 }
+		 
+input[type="text"]
+		 
+		{
+		background-color:#f2f2f2;
+		border:1px solid #000;
+		Padding:5px;
+		font-family: arial, verdana, tahoma, helvetica, sans-serif;
+		font-size: 12pt;
+		}
+select
+		{
+		background-color:#f2f2f2;
+		border:1px solid #000;
+		padding:5px;
+		font-family:arial,verdana,tahoma,helvetica,sans-serif;
+		font-size:12pt ;
+		}
+		input[type="text"]:hover
+		{
+		background-color:#0000ff;
+ 		border:1px solid #333;
+		padding:5px;
+		}
+		input[type="text"]:focus
+		{
+		background-color:#6cf;
+		border:1px solid #900;
+		padding:7px;
+		}
+		.botaoForm{
+		 padding:5px;
+		 background-color:#036;
+		 border:1px solid #000;
+		 color:#fff;
+		 font-size:14pt;
+		 font-weight:bold;
+		 }
+		 .barra
+		 {
+		 width:100%;
+		 background-image:linear-gradient(to bottom,#ccc,#000);
+		 height:30px;
+		 margin:auto;
+		 }
+		
+		
+		
+		
